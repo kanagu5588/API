@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header{
+    background-color: #04314f;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+ul{
+    text-align: center;
+    
+}
+ul li{
+    display: inline-block;
+    padding: 20px;
+    margin: 0 10px;
+    border-bottom: 4px solid #04314f;
+}
+
+ul li:hover{
+    border-color: white;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+body{
+    background:linear-gradient(135deg , rgb(112, 147, 245), rgb(235, 106, 228));
+}
+
+.home-content h1{
+    padding: 100px 0 0px 80px;
+}
+
+.home-review{
+    top: 150px;
+    margin: 10px 50px;
+    
+}
+
+img{
+    width: 50px;
+}
+
+.review-card{
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #edebeb;
+}
+
+footer{
+    background-color: #04314f;
+    padding: 20px 0;
+}
+
+footer ul li{
+    padding: 10px;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
